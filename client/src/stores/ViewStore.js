@@ -8,13 +8,7 @@ import { extendObservable } from "mobx";
 class ViewStore {
   constructor() {
     extendObservable(this, {
-      loading: true,
-      isShowing: false,
-      viewid: 0,
-      location: "",
-      name: "",
-      token: "",
-      data: []
+      content: []
     });
   }
 }
